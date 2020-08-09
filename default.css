@@ -92,6 +92,7 @@ h1{
 .actualdownload{
 	height: 600px;
 	background-color: #ffa200;
+    border: 0px;
 }
 
 .title_download{
@@ -108,8 +109,7 @@ h1{
 @media only screen and (max-width: 600px){
 	
 	.title_download{
-	font-size: 30px;
-    font-weight: 200;
+	font-size: 35px;
 	}
 	
 	.text_download{
