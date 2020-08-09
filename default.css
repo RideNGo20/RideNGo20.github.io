@@ -1,0 +1,353 @@
+@charset "utf-8";
+
+/* CSS Document */
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+body{
+	
+	  font-family: 'Open Sans', sans-serif;
+	 width: 100%;
+  height: 100%;
+    margin: 0;
+    padding:0;
+    position: absolute;
+    overflow: hidden;
+    overflow-y: auto;
+}
+
+
+.navbar{
+	background: #232122;
+}
+
+.downloaddiv{
+	background-image: url("img/Poster_Web_Trabalho.jpg");
+	background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+	width: 100%;
+	height: 700px;
+}
+
+.downloaddiv_text{
+	
+	margin-left: 100px;
+	padding-top: 220px;
+	width: 400px;
+}
+
+@media only screen and (max-width: 600px){
+	.downloaddiv_text{
+	
+	margin-left: 40px;
+	padding-top: 300px;
+	width: 300px;
+}
+	.downloaddiv{
+	background-image: url("img/Poster_Web_Trabalho.jpg");
+	background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+	width: 100%;
+	height: 900px;
+}
+}
+
+h1{
+	font-size: 30px;
+	text-shadow: 0px 0px 30px #222, 0px 0px 30px orange, 0px 0px 30px orange;
+	text-emphasis-color: black;
+	font-style: normal;
+	color: aliceblue;
+}
+
+.experimenta{
+	background-color: #ffa200;
+	padding: 15px;
+	border-radius: 100px;
+	text-decoration: none;
+	align-self: center;
+	font-weight: 700;
+	color: aliceblue;
+	padding-left: 50px;
+	padding-right: 50px;
+	font-size: 20px;
+}
+
+.experimenta:hover{
+	background-color:aliceblue;
+	padding: 15px;
+	border-radius: 100px;
+	text-decoration: none;
+	align-self: center;
+	font-weight: 700;
+	color: #232122;
+	padding-left: 50px;
+	padding-right: 50px;
+	transition: 0.8s;
+	
+}
+
+.actualdownload{
+	height: 600px;
+	background-color: #ffa200;
+}
+
+.title_download{
+	font-weight: 400;
+	font-size: 75px;
+	padding-top: 60px;
+}
+
+.text_download{
+	font-size: 40px;
+	font-weight: 200;
+	padding-top: 30px;
+}
+@media only screen and (max-width: 600px){
+	
+	.title_download{
+	font-size: 50px;
+	}
+	
+	.text_download{
+	font-size: 25px;
+	font-weight: 300;
+	padding-top: 30px;
+}
+	.actualdownload{
+	height: 700px;
+}
+
+}
+
+.get_app{
+	padding-top: 10px;
+}
+
+.get_app2{
+	height: 70px;
+	padding-right: 15px;
+	padding-bottom: 15px;
+}
+.get_app2:hover {
+	transform:  scale(1.1);
+	transition: 0.8s;
+}
+
+/* DESCRICAO */
+
+.row{
+	padding-left: 70px;
+	padding-right: 70px;
+	padding-top: 80px;
+	padding-bottom: 40px;
+	width: 100%;
+}
+
+.heading_descricao{
+	font-size: 45px;
+	color: #ffa200;
+}
+
+.subheading_descricao{
+	font-size: 18px;
+	text-align:justify;
+}
+
+.imagem_descricao{
+	text-align: center;
+}
+
+.imagem_descricao:hover{
+	transform: scale(1.1);
+	transition: 0.8s;
+}
+
+
+
+@media only screen and (max-width: 600px){
+	.row{
+	padding-right: 20px;
+	padding-left: 20px;
+	width: 100%;
+}
+	.imagem_descricao{
+	text-align: center;
+	width: 60%;
+}
+	.heading_descricao{
+	font-size: 30px;
+	color: #ffa200;
+	text-align: center;
+	padding-top: 20px;
+		padding-bottom: 20px;
+	}
+	
+	.subheading_descricao{
+	padding: 20px;
+}
+}
+
+/* CONTACTOS */
+
+.contactos{
+	height: 450px;
+	background-color: #232122;
+	color: #ffa200
+}
+
+.title_contactos{
+	font-weight: 400;
+	font-size: 75px;
+	padding-top: 60px;
+}
+
+.text_contactos{
+	font-size: 40px;
+	font-weight: 200;
+	padding-top: 30px;
+}
+@media only screen and (max-width: 600px){
+	
+	.title_contactos{
+	font-size: 50px;
+	}
+	
+	.text_contactos{
+	font-size: 25px;
+	font-weight: 300;
+	padding-top: 30px;
+}
+
+}
+
+.get_app{
+	padding-top: 10px;
+}
+
+.social{
+	height: 80px;
+	padding-right: 15px;
+	padding-bottom: 15px;
+	padding-top: 20px;
+}
+.social:hover {
+	transform:  scale(1.5);
+	transition: 0.8s;
+}
+
+/* Team */
+.container{
+	padding-top: 15px;
+	
+}
+.card{
+	align-items: center;
+	padding: 15px;
+	background-color: rgba(255, 255, 255, 0.5);
+	
+}
+.team {
+	overflow: auto;
+	position: relative;
+	background-color: #F3F3F3;
+	
+}
+/* Three columns side by side */
+.column {
+  float: left;
+  width: 25%;
+  margin-bottom: 16px;
+  padding: 15px;
+  margin-top: 16px;
+}
+
+.column .card{
+	background-color: #F3F3F3;
+}
+
+.linkedin{
+	height: 60px;
+	padding-right: 15px;
+	padding-bottom: 15px;
+	padding-top: 20px;
+}
+.linkedin:hover {
+	transform:  scale(1.2);
+	transition: 0.8s;
+}
+
+/* Display the columns below each other instead of side by side on small screens */
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+
+/* Add some shadows to create a card effect */
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3);
+	text-align: center;
+}
+
+.Teamtext{
+	color: #232122;
+	font-size:25px;
+}
+
+.socialmedia:hover{
+	transition: 0.8s;
+	transform: scale(1.04);
+}
+
+.column :hover{
+	transition: 0.8s;
+	transform: scale(1.04);
+	
+}
+
+.card :hover{
+	transform: scale(1);
+}
+
+.Teamtext :hover{
+	transform: scale(1);
+}
+
+.col-sm-6:hover{
+	transition: 0.8s;
+	transform: scale(1.04);
+}
+/* Footer */
+
+.footer {
+  position: relative;
+  background-color: #232122;
+  font-weight: 700; 
+  width: 100%;
+  padding: 10px 0px 0px 0px;
+  text-align: center;
+  height: 110px;
+}
+
+
+
+
+.footer_title {
+	font-size: 17px;
+	color:#f5f0f0;
+	padding-top: 10px;
+}
+
+.footer_text {
+	font-size: 15px;
+	color: #f5f0f0;
+}
+
+.footer_text:hover{
+	color: #ffa200;
+	transition: 0.8s;
+}
