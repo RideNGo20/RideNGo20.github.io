@@ -108,7 +108,8 @@ h1{
 @media only screen and (max-width: 600px){
 	
 	.title_download{
-	font-size: 5px;
+	font-size: 30px;
+    font-weight: 200;
 	}
 	
 	.text_download{
